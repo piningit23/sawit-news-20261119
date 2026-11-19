@@ -405,7 +405,6 @@ def art_gaza(x, y, w, h):
     for i in range(3):
         bx = x + w - 118 + i * 36
         tri(bx, y + h - 30, bx + 16, y + h - 44, bx + 32, y + h - 30, WHITE)
-    draw_text(x + w - 64, y + 6, "GAZA", 3, RED)
 
 
 def art_anthropic(x, y, w, h):
